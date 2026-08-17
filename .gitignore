@@ -1,0 +1,39 @@
+# Keep this repository presentation-only.
+UnityProject/
+Assets/
+Packages/
+ProjectSettings/
+Library/
+Temp/
+Logs/
+UserSettings/
+Build/
+Builds/
+
+# Do not publish source or reusable Unity assets here.
+*.cs
+*.shader
+*.compute
+*.hlsl
+*.cginc
+*.unity
+*.unitypackage
+*.asset
+*.prefab
+*.mat
+
+# Never publish local credentials or machine-specific files.
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.key
+*.keystore
+*.jks
+*.mobileprovision
+*.user
+*.suo
+*.tmp
+.DS_Store
+Thumbs.db
